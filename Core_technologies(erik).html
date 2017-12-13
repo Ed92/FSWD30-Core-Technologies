@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Core Technologies</title>
+	<link rel="stylesheet" href="Core_technologies.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+<body>
+	<header id="header">
+		<img src="abu-bg5.png">
+	</header>
+	<section id="navbar">
+		
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a  href="#"><i class="fa fa-ravelry fa-3x"  ></i> <p class="ps">proSolvers </p></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+        <a href="Core_Technologies(master).html">Home</a>
+      <li class="nav-item">
+        <a  href="Core_technologies(erik).html">About us</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a  href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Our Team
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Ahmed Arkan</a>
+          <a class="dropdown-item" href="#">Simona Mirauta</a>
+          <a class="dropdown-item" href="#">Erik Djamgarian</a>
+          <a class="dropdown-item" href="#">Nicole Kohoutek</a>
+        </div>
+      </li>
+    </ul>
+    <form>
+      <input type="search" placeholder="Search" aria-label="Search">
+      <button  type="submit">Search</button>
+    </form>
+  </div>
+</nav>	
+	</section>
+	<section id="paragraph">
+		<h1> About Us </h1>
+		<p> Nowadays, the topic of coding is becoming continually more important and IT-professionals are in increasing demand. One of our main industry-partners confided, that even with hiring professionals from foreign markets, the demand cannot be met – that is to say, good programmers are in high demand.
+The demand, to teach coding as a modern “language” in schools is also voiced on a state-level both here and abroad. The realization of this goal, to have a high-quality and standardized IT-education in the curriculum, is still a long way off though.
+Therefore, an immense potential for the job-market is just not being addressed. We see our job to bridge that gap between the immense demand of the industry and the current lack of high-quality IT-training. With our innovative concept, built and improved upon already highly successful coding schools in the USA, we will create an immense and positive change not only for the Austrian job market, but also for the many people looking for new perspectives and chances.</p>
+
+	</section>
+	<br>
+		<section>
+			<div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 48.1964775, lng: 16.3591575};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAopUeCGWa3_0aQ98cVxpQrOWe56EKpgTo&callback=initMap">
+    </script>
+ </section>
+ <br>
+
+			
+		
+	
+
+
+<script src="Core_technologies.js"></script>
+<footer>
+	<h2> Team Name &copy;</h2>
+		
+	</footer>
+</body>
+</html>

@@ -1,10 +1,76 @@
 * {box-sizing:border-box}
 body {font-family: Verdana,sans-serif;margin:0}
-.mySlides {display:none}
+
+
+
+
+header img{
+  width: 100%;
+
+
+}
+.bg-light{
+  background-image: url("black-background-1468370534d5s.jpg");
+}
+
+main{
+margin-top: 80px;
+  display: flex;
+  
+}
+article{
+
+  width: 25%;
+}
+
+span{
+
+
+  font-size: 30px;
+}
+section a{
+  text-decoration: none;
+padding-left: 20px;
+  color: #f2fefe;
+}
+.logos{
+  padding: 10px;
+}
+.logos a{
+  padding: 10px;
+}
+.searbut{
+  float: right;
+  border: none;
+  outline: 0;
+  padding: 3px;
+  color: white;
+  background-color: #7250cd;
+  width: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+input{
+  border-radius: 5px;
+font-size: 21px;
+padding: 5px;
+  width: 240px;
+  
+}
+form{
+  text-align: center;
+}
+form button{
+  background-color: #7250cd;
+  float: right;
+  width: 90px;
+  padding: 9px;
+  border-radius: 5px;
+}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+
   position: relative;
   margin: auto;
 }
@@ -19,8 +85,7 @@ body {font-family: Verdana,sans-serif;margin:0}
   margin-top: -22px;
   color: white;
   font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
+  font-size: 14px;
   border-radius: 0 3px 3px 0;
 }
 
@@ -38,7 +103,7 @@ body {font-family: Verdana,sans-serif;margin:0}
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 14px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -74,9 +139,9 @@ body {font-family: Verdana,sans-serif;margin:0}
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 7.5s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 7.5s;
 }
 
 @-webkit-keyframes fade {
@@ -107,7 +172,7 @@ body {font-family: Verdana,sans-serif;margin:0}
   font-size: 18px;
 }
 
-/* button {
+ button {
   border: none;
   outline: 0;
   display: inline-block;
@@ -118,7 +183,7 @@ body {font-family: Verdana,sans-serif;margin:0}
   cursor: pointer;
   width: 100%;
   font-size: 18px;
- } */
+ } 
 
 a {
   text-decoration: none;
@@ -127,5 +192,22 @@ a {
 }
 
 button:hover, a:hover {
+  color: #45b6f8;
   opacity: 0.7;
 }
+footer {
+  text-align: center;
+  background-color:;
+  color:;
+  align-content: bottom;
+  padding-top: 335px;
+
+}
+
+#map {
+        height: 400px;
+        width: 400px;
+        float: right;
+        margin-right: 15px;
+        margin-bottom: 10px;
+       }
