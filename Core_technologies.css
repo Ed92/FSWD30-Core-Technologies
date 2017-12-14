@@ -198,9 +198,10 @@ button:hover, a:hover {
 footer {
   text-align: center;
   background-color:;
-  color:;
+  color: black;
   align-content: bottom;
-  padding-top: 335px;
+  padding-top: 30px;
+  height: 10px;
 
 }
 
@@ -211,3 +212,7 @@ footer {
         margin-right: 15px;
         margin-bottom: 10px;
        }
+
+.ps {
+  padding-top: 13px;
+}
